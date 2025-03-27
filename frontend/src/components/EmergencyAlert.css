@@ -1,0 +1,83 @@
+.emergency-alert {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-left: 5px solid #e74c3c;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .emergency-icon {
+    font-size: 2.5rem;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .emergency-content {
+    flex: 1;
+  }
+  
+  .emergency-content h3 {
+    color: #e74c3c;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+  
+  .emergency-content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .emergency-actions {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .call-emergency-btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .call-emergency-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  .dismiss-btn {
+    background-color: transparent;
+    border: 1px solid #e74c3c;
+    color: #e74c3c;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s;
+  }
+  
+  .dismiss-btn:hover {
+    background-color: rgba(231, 76, 60, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .emergency-alert {
+      flex-direction: column;
+    }
+  
+    .emergency-icon {
+      margin-right: 0;
+      margin-bottom: 15px;
+      justify-content: center;
+    }
+  
+    .emergency-actions {
+      flex-direction: column;
+    }
+  }
+  
+  
